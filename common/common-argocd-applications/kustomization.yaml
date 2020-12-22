@@ -1,0 +1,3 @@
+resources:
+  - argocd-server-application.yaml
+  - metrics-server-application.yaml

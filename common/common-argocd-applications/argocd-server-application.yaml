@@ -1,0 +1,16 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: argocd-server
+  namespace: argocd
+spec:
+  syncPolicy:
+    automated: {}
+  destination:
+    namespace: argocd
+    server: https://kubernetes.default.svc
+  project: common
+  source:
+    path: common/argocd-server
+    repoURL: https://github.com/ndigati/kube-manifest-examples.git
+    targetRevision: main
