@@ -14,5 +14,7 @@ Even though earlier in the apply that CRD was successfully created.
 This means you have to run `kustomize build common | kubectl apply -f -` twice to get everything created/applied
 
 ## Issues for reference
-https://github.com/kubernetes-sigs/kustomize/issues/1510
-https://github.com/kubernetes-sigs/kustomize/issues/1510#issuecomment-529537309
+
+- https://github.com/kubernetes-sigs/kustomize/issues/1510
+- https://github.com/kubernetes-sigs/kustomize/issues/1510#issuecomment-529537309
+- https://github.com/kubernetes-sigs/kustomize/issues/3074
