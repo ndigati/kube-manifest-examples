@@ -1,4 +1,5 @@
 resources:
   - argocd-server
   - common-argocd-applications
+  - common-argocd-projects
   
